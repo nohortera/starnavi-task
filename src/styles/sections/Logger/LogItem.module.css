@@ -1,0 +1,8 @@
+.logItem {
+    padding: 10px 2px;
+    width: 250px;
+    border: 1px solid lightgray;
+    border-radius: 4px;
+    background-color: navajowhite;
+    margin-bottom: 10px;
+}

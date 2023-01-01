@@ -1,0 +1,5 @@
+.logsWrapper {
+    margin: 20px 0;
+    overflow: scroll;
+    height: 600px;
+}
