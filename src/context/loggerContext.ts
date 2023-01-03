@@ -1,9 +1,9 @@
-import {createContext} from "react";
+import { createContext } from 'react';
 
 interface LoggerContextInterface {
-    addLog: (newLog: string) => void
+	addLog: (newLog: string) => void;
 }
 
 export const LoggerContext = createContext<LoggerContextInterface>({
-    addLog: () => {}
-})
+	addLog: () => {},
+});
