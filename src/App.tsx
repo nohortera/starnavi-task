@@ -13,7 +13,7 @@ const App: FC = () => {
 		field: 0,
 	});
 	const [appModes, isLoading, isError] = useFetch<IAppMode[]>(
-		'http://demo7919674.mockable.io',
+		'https://demo7919674.mockable.io',
 		[]
 	);
 	const [logs, setLogs] = useState<string[]>([]);

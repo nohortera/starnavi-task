@@ -3,7 +3,7 @@ import LogItem from './LogItem';
 import s from '../../../styles/sections/Logger/Logger.module.css';
 
 interface LoggerProps {
-	logs?: string[];
+	logs: string[];
 }
 
 const Logger: FC<LoggerProps> = ({ logs }) => {
@@ -11,7 +11,7 @@ const Logger: FC<LoggerProps> = ({ logs }) => {
 		<div>
 			<h2>Hover squares</h2>
 			<div className={s.logsWrapper}>
-				{logs?.map((log) => (
+				{logs.map((log) => (
 					<LogItem key={Math.random()} log={log} />
 				))}
 			</div>
